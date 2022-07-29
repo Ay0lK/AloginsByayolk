@@ -34,6 +34,7 @@ public class event {
     public void getLogin(String username,String passWd) {
         event eve =new event();
         sqldb sdb = new sqldb();
+        System.out.println("666");
         Main main = new Main();
             if (sdb.getLogin(username, passWd)) {
                 System.out.println("登录成功！");
